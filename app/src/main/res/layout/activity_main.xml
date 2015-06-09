@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+    <ImageView
+        android:id="@+id/imgSwing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="150px"
+        android:minWidth="300px" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="74dp"
+            android:textSize="11dp"
+            android:text="Start Cartoon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="72dp"
+            android:layout_marginEnd="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="74dp" />
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="66dp"
+            android:textSize="11dp"
+            android:text="Stop Cartoon"
+            android:layout_marginTop="100dp"
+            android:layout_alignLeft="@+id/btnStart"
+            android:layout_alignStart="@+id/btnStart"
+            android:layout_marginLeft="55dp"
+            android:layout_marginStart="55dp"
+            android:layout_alignRight="@+id/btnStart"
+            android:layout_alignEnd="@+id/btnStart"
+            android:layout_marginEnd="66dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
